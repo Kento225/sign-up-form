@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'typographicaregular';
+    src: url('assets/typographica-webfont.woff2') format('woff2'),
+         url('assets/typographica-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    display:flex;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.image{
+    background-image:url("venrick-azcueta-Ngu3tsqmcRg-unsplash.jpg");
+    width: 35%;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.wrapper{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+.form-div{
+    min-height: 40%;
+    padding: 0 50% 0 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h1{
+    padding: 10% 0 0 3%;
+}
+form{
+    display:grid;
+    grid-template-rows: 20% 20% 20% ;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.input-wrap{
+    display:flex;
+    flex-direction: column;
+}
+input{
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    line-height: 2em;
+}
+button{
+    width: 20%;
+    height: 5%;
+    border-radius: 5px;
+    border: none;
+    margin: 4% 0 2% 3%;
+    background-color: #3C628A;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+p{
+    margin: 0% 3%; 
+}
+.bottom a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #3C628A;
+}
+label{
+    font-size: 12px;
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+.image p{
+    position: relative;
+    top: 97vh;
+    text-align: center;
+    color: white;
+}
+.image a{
+    color: inherit;
+}
+.logo{
+    font-family:"typographicaregular", "sans-serif";
+    color: white;
+    text-align: center;
+    position: relative;
+    top:10rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-bottom: 4rem;
+    font-size: 2.5rem;
+}
+.image img{
+    height: 13rem;
+}
+.dmatch{
+    color: red;
+    font-size: 0.9rem;
+}
+.wrapper h1{
+    margin-bottom: 4rem;
+}
